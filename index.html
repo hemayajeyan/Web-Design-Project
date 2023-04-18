@@ -1,504 +1,1236 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Title -->
-        <title> Sound Saavy - Hemaya Santhosh Jayen </title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/images/logo/favicon.png">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-        <!-- Slick -->
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <!-- line awesome -->
-        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-        <!-- Flaticon -->
-        <link rel="stylesheet" href="assets/css/flaticon.css">
-        <!-- Nice Select -->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!-- Odometer -->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!-- Fraudio -->
-        <link rel="stylesheet" href="assets/css/fraudio.min.css">
-        <!-- Magnific Popup -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!-- Main css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title> Sound Saavy - Hemaya Santhosh Jayen </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- line awesome -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Odometer -->
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <!-- Fraudio -->
+    <link rel="stylesheet" href="assets/css/fraudio.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<!--==================== Preloader Start ====================-->
+<div class="preloader">
+    <div class="loader-p"></div>
+</div>
+<!--==================== Preloader End ====================-->
 
-    <!-- ==================== Bottom Header End Here ==================== -->
-    <header class="header-bottom" id="header">
-        <div class="container-fluid header-bottom__style-two">
-            <nav class="navbar navbar-header__style-two navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo/Logo.png" alt=""></a>
-                <button class="navbar-toggler header-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span id="hiddenNav"><i class="las la-bars"></i></span>
-                </button>
-                
-                <div class="signup-button d-lg-block d-none">
-                    <a href="#" class="btn--base header__style-two">Sign Up Your Account</a>
+<!-- ==================== Bottom Header End Here ==================== -->
+<header class="header-bottom" id="header">
+    <div class="container-fluid header-bottom__style-two">
+        <nav class="navbar navbar-header__style-two navbar-expand-lg navbar-light">
+            <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo/Logo.png" alt=""></a>
+            <button class="navbar-toggler header-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="hiddenNav"><i class="las la-bars"></i></span>
+            </button>
+            
+            <div class="signup-button d-lg-block d-none">
+                <a href="#" class="btn--base header__style-two">Sign Up Your Account</a>
+            </div>
+
+            <div class="toggle-search-box d-lg-none d-block">
+                <div class="search-icon">
+                    <span class="icon-search"></span>
                 </div>
-
-                <div class="toggle-search-box d-lg-none d-block">
-                    <div class="search-icon">
-                        <span class="icon-search"></span>
-                    </div>
-                    <div class="search-input">
-                        <form>
-                            <input type="text" placeholder="Search...">
-                            <button type="submit"><span class="icon-search"></span></button>
-                        </form>
-                    </div>
+                <div class="search-input">
+                    <form>
+                        <input type="text" placeholder="Search...">
+                        <button type="submit"><span class="icon-search"></span></button>
+                    </form>
                 </div>
+            </div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav nav-menu style-two">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link style-two" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Home <span class="nav-item__icon"></span> <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span> </a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link style-two" aria-current="page" href="about.html">About <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link style-two" href="contact.html">Contact <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span> </a>
-                        </li>
-                        <li class="nav-item d-lg-none d-block">
-                            <div class="signup-button">
-                                <a href="#" class="btn--base w-100 bg--base">Sign Up Your Account</a>
-                            </div>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-menu style-two">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link style-two" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Home <span class="nav-item__icon"></span> <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link style-two" href="about.html">About <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link style-two" href="show.html">Shows <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link style-two" href="event.html">Event <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link style-two" href="contact.html">Contact <span class="nav-item__icon-microphone"><span class="icon-mic-1"></span></span> </a>
+                    </li>
+                    <li class="nav-item d-lg-none d-block">
+                        <div class="signup-button">
+                            <a href="#" class="btn--base w-100 bg--base">Sign Up Your Account</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- ==================== Bottom Header End Here ==================== -->
+
+<!-- ==================== Banner Start Here ==================== -->
+<section class="banner pt-120 bg-img" style="background-image: url(assets/images/thumb/banner-bg.png);">
+    <div class="banner-thumb bg-img top-center" style="background-image: url(assets/images/thumb/banner-img.jpeg); background-size: 732px 1210px">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner-content">
+                    <h1 class="banner-content__title"><span class="banner-content__title-icon"><span class="icon-wifi"></span></span> <span class="banner-content__title-colored">The</span> biggest & hippest <span class="banner-content__title-colored">radio</span> <span class="banner-content__title-water">Station</span></h1>
+                    <p class="banner-content__desc">dummy text of the printing and typesetting industry. Lorem 
+                        Ipsum has been the industry's standard</p>
+                    <ul class="button-list mt-5">
+                        <li class="button-list__item"><a href="#" class="button-list__link btn--base style-two">START NOW <span class="btn--base__icon"><span class="icon-play-button-4-1"></span> </span> </a></li>
+                        <li class="button-list__item"><a href="contact.html" class="button-list__link btn--base outline">CONTACT US <span class="btn--base__icon"><span class="icon-next"></span></span> </a></li>
                     </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- ==================== Bottom Header End Here ==================== -->
-
-    <!-- ==================== Banner Start Here ==================== -->
-    <section class="banner pt-120 bg-img" style="background-image: url(assets/images/thumb/banner-bg.png);">
-        <div class="banner-thumb bg-img top-center" style="background-image: url(assets/images/thumb/banner-img.jpeg); background-size: 732px 1210px">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="banner-content">
-                        <h1 class="banner-content__title"><span class="banner-content__title-icon"><span class="icon-wifi"></span></span> <span class="banner-content__title-colored">The</span> biggest & hippest <span class="banner-content__title-colored">radio</span> <span class="banner-content__title-water">Station</span></h1>
-                        <p class="banner-content__desc">dummy text of the printing and typesetting industry. Lorem 
-                            Ipsum has been the industry's standard</p>
-                        <ul class="button-list mt-5">
-                            <li class="button-list__item"><a href="#" class="button-list__link btn--base style-two">START NOW <span class="btn--base__icon"><span class="icon-play-button-4-1"></span> </span> </a></li>
-                            <li class="button-list__item"><a href="contact.html" class="button-list__link btn--base outline">CONTACT US <span class="btn--base__icon"><span class="icon-next"></span></span> </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ======== live Youtube Start Here ====== -->
-        <div class="live-youtube-wrapper">
-            <div class="container">
-                <div class="live-youtube">
-                    <div class="row gy-4 align-items-center">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="youtube-rj">
-                                <div class="youtube-rj__thumb">
-                                    <img src="assets/images/thumb/youtube-rj.jpeg" alt="">
-                                    <h4 class="youtube-rj__title">Darlene Robertson <span class="youtube-rj__title-colored">RJ</span> </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-6 ps-lg-5 pe-lg-5">
-                            <div class="youtube-content">
-                                <h6 class="youtube-content__subtitle">Live on youtube</h6>
-                                <h2 class="youtube-content__title">Smooth Jazz Tampa</h2>
-                                <p class="youtube-content__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard recently with desktopdummy</p>
-                                <audio class="fraudio play-button special-class">
-                                    <source src="assets/audios/love.mp3" type="audio/mpeg">
-                                </audio>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class=" youtube-time">
-                                <h2 class="youtube-time__date">Today</h2>
-                                <h2 class="youtube-time__time">1:30 AM-5:30 AM</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ======== live Youtube End Here ======== -->
-    </section>
-    <!-- ==================== Banner End Here ==================== -->
-
-    <!-- ==================== Tab List Start Here ==================== -->
-    <section class="tab-list py-120 bg-img" style="background-image: url(assets/images/thumb/tab-bg.png);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="tab-list-wrapper">
-                        <ul class="nav custom--tab nav-pills" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-monday-tab" data-bs-toggle="pill" data-bs-target="#pills-monday" type="button" role="tab" aria-controls="pills-monday" aria-selected="true">monday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-tuesday-tab" data-bs-toggle="pill" data-bs-target="#pills-tuesday" type="button" role="tab" aria-controls="pills-tuesday" aria-selected="false">tuesday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-wednesday-tab" data-bs-toggle="pill" data-bs-target="#pills-wednesday" type="button" role="tab" aria-controls="pills-wednesday" aria-selected="false">wednesday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-thursday-tab" data-bs-toggle="pill" data-bs-target="#pills-thursday" type="button" role="tab" aria-controls="pills-thursday" aria-selected="false">thursday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-friday-tab" data-bs-toggle="pill" data-bs-target="#pills-friday" type="button" role="tab" aria-controls="pills-friday" aria-selected="false">friday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-saturday-tab" data-bs-toggle="pill" data-bs-target="#pills-saturday" type="button" role="tab" aria-controls="pills-saturday" aria-selected="false">saturday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-sunday-tab" data-bs-toggle="pill" data-bs-target="#pills-sunday" type="button" role="tab" aria-controls="pills-sunday" aria-selected="false">sunday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
-                            </li>
-                        </ul>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-monday" role="tabpanel" aria-labelledby="pills-monday-tab" tabindex="0">
-                                <table class="table table--responsive--lg">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
-                                                            <span class="rj-details__designation">Rj - Jane Cooper</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                            <td class="table-middle"> <span class="table-middle__border"></span> </td>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">Knowledge sharing</h5>
-                                                            <span class="rj-details__designation">RJ - Savannah Nguyen</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">Transport Signal</h5>
-                                                            <span class="rj-details__designation">RJ - Courtney Henry</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                            <td class="table-middle"> <span class="table-middle__border"></span> </td>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">Comedy Nightclub</h5>
-                                                            <span class="rj-details__designation">RJ - Esther Howard</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">Public Reaction</h5>
-                                                            <span class="rj-details__designation">RJ - Kathryn Murphy</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                            <td class="table-middle"> <span class="table-middle__border"></span> </td>
-                                            <td>
-                                                <div class="rj-details-wrapper">
-                                                    <div class="rj-details">
-                                                        <div class="rj-details__thumb">
-                                                            <img src="assets/images/thumb/tab-img-01.png" alt="" style="background-color: white;">
-                                                        </div>
-                                                        <div class="rj-details__texts">
-                                                            <h5 class="rj-details__title">Education for abroad</h5>
-                                                            <span class="rj-details__designation">Rj Jane Cooper</span>
-                                                        </div>
-                                                    </div>
-                                                    <ul class="tab-time-list">
-                                                        <li class="tab-time-list__item">10:30 AM</li>
-                                                        <li class="tab-time-list__item">-</li>
-                                                        <li class="tab-time-list__item">11:30 AM</li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    
-                                    </tbody>
-                                </table>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== Tab List End Here ==================== -->
-
-    <!-- ==================== Chart Start Here ==================== -->
-    <section class="chart py-120 bg-img" style="background-image: url(assets/images/thumb/chart-bg.png);">
-        <div class="container">
-            <div class="chart__thumb">
-                <img src="assets/images/thumb/chart-img.jpeg" alt="">
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading style-two">
-                        <h5 class="section-heading__subtitle"><span class="section-heading__bars bars-one"></span> chart <span class="section-heading__bars bars-two"></span></h5>
-                        <h2 class="section-heading__title"> our Weekly Top <span class="section-heading__title-colored">Chart</span></h2>
-                        <p class="section-heading__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
-                    </div>
-                    <ul class="chart-list">
-                        <li class="chart-list__item">
-                            <div class="chart-list__content">
-                                <h5 class="chart-list__content-title">1. Non Absolute</h5>
-                                <span class="chart-list__content-name">RJ - Esther Howard</span>
-                            </div>
-                            <div class="chart-list__audio">
-                                <audio class="fraudio circle-audio">
-                                    <source src="assets/audios/love.mp3" type="audio/mpeg">
-                                </audio>
-                            </div>
-                        </li>
-                        <li class="chart-list__item">
-                            <div class="chart-list__content">
-                                <h5 class="chart-list__content-title">1. Non Absolute</h5>
-                                <span class="chart-list__content-name">RJ - Esther Howard</span>
-                            </div>
-                            <div class="chart-list__audio">
-                                <audio class="fraudio circle-audio">
-                                    <source src="assets/audios/love.mp3" type="audio/mpeg">
-                                </audio>
-                            </div>
-                        </li>
-                        <li class="chart-list__item">
-                            <div class="chart-list__content">
-                                <h5 class="chart-list__content-title">1. Non Absolute</h5>
-                                <span class="chart-list__content-name">RJ - Esther Howard</span>
-                            </div>
-                            <div class="chart-list__audio">
-                                <audio class="fraudio circle-audio">
-                                    <source src="assets/audios/love.mp3" type="audio/mpeg">
-                                </audio>
-                            </div>
-                        </li>
-                        <li class="chart-list__item">
-                            <div class="chart-list__content">
-                                <h5 class="chart-list__content-title">1. Non Absolute</h5>
-                                <span class="chart-list__content-name">RJ - Esther Howard</span>
-                            </div>
-                            <div class="chart-list__audio">
-                                <audio class="fraudio circle-audio">
-                                    <source src="assets/audios/love.mp3" type="audio/mpeg">
-                                </audio>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== Chart End Here ==================== -->
-
-    <!-- ==================== Blog Start Here ==================== -->
-    <section class="blog py-120 bg-img bg-overlay-one" style="background-image: url(assets/images/thumb/blog-bg.jpeg);">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h5 class="section-heading__subtitle"><span class="section-heading__bars bars-one"></span> latest event<span class="section-heading__bars bars-two"></span></h5>
-                        <h2 class="section-heading__title"> Read Latest music <span class="section-heading__title-colored"> Blog</span> Post </h2>
-                        <p class="section-heading__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row gy-4 justify-content-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="blog-item">
-                        <div class="blog-item__thumb">
-                        <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
-                        </div>
-                        <div class="blog-item__content">
-                            <ul class="event-date-list"> 
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
-                            </ul>
-                            <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">tortor laoreet lipharra fficit dsas
-                                ur placerat et conse.</a> </h4>
-                                <a href="#" class="btn--simple">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="blog-item">
-                        <div class="blog-item__thumb">
-                        <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
-                        </div>
-                        <div class="blog-item__content">
-                            <ul class="event-date-list"> 
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
-                            </ul>
-                            <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">justo finibus placerat Proin frinla finibus massa congue.</a> </h4>
-                                <a href="#" class="btn--simple">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="blog-item">
-                        <div class="blog-item__thumb">
-                        <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
-                        </div>
-                        <div class="blog-item__content">
-                            <ul class="event-date-list"> 
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
-                                <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
-                            </ul>
-                            <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">Pellentesque dapibus odio misit amet lo bortis elit scelerisque.  Pellentesque dapibus odio misit amet lo bortis elit scelerisque.</a> </h4>
-                                <a href="#" class="btn--simple">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ==================== Blog End Here ==================== -->
-
-    <!-- ==================== Footer End Here ==================== -->
-    <footer class="footer-area bg-img" style="background-image: url(assets/images/thumb/footer-bid.png);">
-        <div class="container footer-top py-60">
-            <div class="row justify-content-center gy-5">
-                <div class="col-xl-3 col-sm-6">
-                    <div class="footer-item">
-                        <div class="footer-item__logo">
-                            <a href="index.html"> <img src="assets/images/logo/footer-logo.png" alt=""></a>
-                        </div>
-                        <p class="footer-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            .</p>
-                        <ul class="social-list style-two">
-                            <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link"><span class="icon-facebook"></span></a> </li>
-                            <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link"> <span class="icon-twitter"></span></a></li>
-                            <li class="social-list__item"><a href="https://www.linkedin.com" class="social-list__link"> <span class="icon-linkedin"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6">
-                    <div class="footer-item">
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6">
-                    <div class="footer-item">
-                    </div>
-                </div>
-                <div class="col-xl-3 col-sm-6">
-                    <div class="footer-item">
-                        <h5 class="footer-item__title">download our apps</h5>
-                        <ul class="download-list">
-                            <li class="download-list__item">
-                                <a href="https://play.google.com/store/games?hl=en&gl=US" class="download-list__link w-100">
-                                    <div class="download-list__icon">
-                                        <img src="assets/images/icons/play-icon.png" alt="">
-                                    </div>
-                                    <div class="download-list__content">
-                                        <span class="download-list__subtitle">Available On</span>
-                                        <span class="download-list__title">Google Store</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="download-list__item">
-                                <a href="https://www.apple.com/app-store/" class="download-list__link w-100">
-                                    <div class="download-list__icon">
-                                        <img src="assets/images/icons/apple.png" alt="">
-                                    </div>
-                                    <div class="download-list__content">
-                                        <span class="download-list__subtitle">Available On</span>
-                                        <span class="download-list__title">Apple Store</span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- bottom Footer -->
-    <div class="bottom-footer pb-3">
-        <div class="container">
-            <div class="row gy-3">
-                <div class="col-md-12 text-center">
-                    <div class="bottom-footer-text text-white"> Copyright © 2023 - Hemaya Santhosh Jayen - All Right Reserved.</div>
                 </div>
             </div>
         </div>
     </div>
-    </footer>
-    <!-- ==================== Footer End Here ==================== -->
-    <a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
 
-    </body>
+    <!-- ======== live Youtube Start Here ====== -->
+    <div class="live-youtube-wrapper">
+        <div class="container">
+            <div class="live-youtube">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="youtube-rj">
+                            <div class="youtube-rj__thumb">
+                                <img src="assets/images/thumb/youtube-rj.jpeg" alt="">
+                                <h4 class="youtube-rj__title">Darlene Robertson <span class="youtube-rj__title-colored">RJ</span> </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 ps-lg-5 pe-lg-5">
+                        <div class="youtube-content">
+                            <h6 class="youtube-content__subtitle">Live on youtube</h6>
+                            <h2 class="youtube-content__title">Smooth Jazz Tampa</h2>
+                            <p class="youtube-content__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard recently with desktopdummy</p>
+                            <audio class="fraudio play-button special-class">
+                                <source src="assets/audios/love.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class=" youtube-time">
+                            <h2 class="youtube-time__date">Today</h2>
+                            <h2 class="youtube-time__time">1:30 AM-5:30 AM</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======== live Youtube End Here ======== -->
+</section>
+<!-- ==================== Banner End Here ==================== -->
+
+<!-- ==================== Tab List Start Here ==================== -->
+<section class="tab-list py-120 bg-img" style="background-image: url(assets/images/thumb/tab-bg.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="tab-list-wrapper">
+                    <ul class="nav custom--tab nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-monday-tab" data-bs-toggle="pill" data-bs-target="#pills-monday" type="button" role="tab" aria-controls="pills-monday" aria-selected="true">monday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-tuesday-tab" data-bs-toggle="pill" data-bs-target="#pills-tuesday" type="button" role="tab" aria-controls="pills-tuesday" aria-selected="false">tuesday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-wednesday-tab" data-bs-toggle="pill" data-bs-target="#pills-wednesday" type="button" role="tab" aria-controls="pills-wednesday" aria-selected="false">wednesday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-thursday-tab" data-bs-toggle="pill" data-bs-target="#pills-thursday" type="button" role="tab" aria-controls="pills-thursday" aria-selected="false">thursday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-friday-tab" data-bs-toggle="pill" data-bs-target="#pills-friday" type="button" role="tab" aria-controls="pills-friday" aria-selected="false">friday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-saturday-tab" data-bs-toggle="pill" data-bs-target="#pills-saturday" type="button" role="tab" aria-controls="pills-saturday" aria-selected="false">saturday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-sunday-tab" data-bs-toggle="pill" data-bs-target="#pills-sunday" type="button" role="tab" aria-controls="pills-sunday" aria-selected="false">sunday <span class="tab-microphone"><span class="icon-mic-1"></span></span> </button>
+                        </li>
+                      </ul>
+
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-monday" role="tabpanel" aria-labelledby="pills-monday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-tuesday" role="tabpanel" aria-labelledby="pills-tuesday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-wednesday" role="tabpanel" aria-labelledby="pills-wednesday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-thursday" role="tabpanel" aria-labelledby="pills-thursday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-friday" role="tabpanel" aria-labelledby="pills-friday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-saturday" role="tabpanel" aria-labelledby="pills-saturday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="pills-sunday" role="tabpanel" aria-labelledby="pills-sunday-tab" tabindex="0">
+                            <table class="table table--responsive--lg">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Transport Signal</h5>
+                                                        <span class="rj-details__designation">RJ - Courtney Henry</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Comedy Nightclub</h5>
+                                                        <span class="rj-details__designation">RJ - Esther Howard</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">DEF LEPPARD POSTPONE</h5>
+                                                        <span class="rj-details__designation">Rj - Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Knowledge sharing</h5>
+                                                        <span class="rj-details__designation">RJ - Savannah Nguyen</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Public Reaction</h5>
+                                                        <span class="rj-details__designation">RJ - Kathryn Murphy</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td class="table-middle"> <span class="table-middle__border"></span> </td>
+                                        <td>
+                                            <div class="rj-details-wrapper">
+                                                <div class="rj-details">
+                                                    <div class="rj-details__thumb">
+                                                        <img src="assets/images/thumb/tab-img-01.png" alt="">
+                                                    </div>
+                                                    <div class="rj-details__texts">
+                                                        <h5 class="rj-details__title">Education for abroad</h5>
+                                                        <span class="rj-details__designation">Rj Jane Cooper</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="tab-time-list">
+                                                    <li class="tab-time-list__item">10:30 AM</li>
+                                                    <li class="tab-time-list__item">-</li>
+                                                    <li class="tab-time-list__item">11:30 AM</li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Tab List End Here ==================== -->
+
+<!-- ==================== Chart Start Here ==================== -->
+<section class="chart py-120 bg-img" style="background-image: url(assets/images/thumb/chart-bg.png);">
+    <div class="container">
+        <div class="chart__thumb">
+            <img src="assets/images/thumb/chart-img.jpeg" alt="">
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading style-two">
+                    <h5 class="section-heading__subtitle"><span class="section-heading__bars bars-one"></span> chart <span class="section-heading__bars bars-two"></span></h5>
+                    <h2 class="section-heading__title"> our Weekly Top <span class="section-heading__title-colored">Chart</span></h2>
+                    <p class="section-heading__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
+                </div>
+                <ul class="chart-list">
+                    <li class="chart-list__item">
+                        <div class="chart-list__content">
+                            <h5 class="chart-list__content-title">1. Non Absolute</h5>
+                            <span class="chart-list__content-name">RJ - Esther Howard</span>
+                        </div>
+                        <div class="chart-list__audio">
+                            <audio class="fraudio circle-audio">
+                                <source src="assets/audios/love.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </li>
+                    <li class="chart-list__item">
+                        <div class="chart-list__content">
+                            <h5 class="chart-list__content-title">1. Non Absolute</h5>
+                            <span class="chart-list__content-name">RJ - Esther Howard</span>
+                        </div>
+                        <div class="chart-list__audio">
+                            <audio class="fraudio circle-audio">
+                                <source src="assets/audios/love.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </li>
+                    <li class="chart-list__item">
+                        <div class="chart-list__content">
+                            <h5 class="chart-list__content-title">1. Non Absolute</h5>
+                            <span class="chart-list__content-name">RJ - Esther Howard</span>
+                        </div>
+                        <div class="chart-list__audio">
+                            <audio class="fraudio circle-audio">
+                                <source src="assets/audios/love.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </li>
+                    <li class="chart-list__item">
+                        <div class="chart-list__content">
+                            <h5 class="chart-list__content-title">1. Non Absolute</h5>
+                            <span class="chart-list__content-name">RJ - Esther Howard</span>
+                        </div>
+                        <div class="chart-list__audio">
+                            <audio class="fraudio circle-audio">
+                                <source src="assets/audios/love.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Chart End Here ==================== -->
+
+<!-- ==================== Blog Start Here ==================== -->
+<section class="blog py-120 bg-img bg-overlay-one" style="background-image: url(assets/images/thumb/blog-bg.png);">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h5 class="section-heading__subtitle"><span class="section-heading__bars bars-one"></span> latest event<span class="section-heading__bars bars-two"></span></h5>
+                    <h2 class="section-heading__title"> Read Latest music <span class="section-heading__title-colored"> Blog</span> Post </h2>
+                    <p class="section-heading__desc">Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'</p>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                       <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
+                    </div>
+                    <div class="blog-item__content">
+                        <ul class="event-date-list"> 
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
+                        </ul>
+                        <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">tortor laoreet lipharra fficit dsas
+                            ur placerat et conse.</a> </h4>
+                            <a href="#" class="btn--simple">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                       <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
+                    </div>
+                    <div class="blog-item__content">
+                        <ul class="event-date-list"> 
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
+                        </ul>
+                        <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">justo finibus placerat Proin frinla finibus massa congue.</a> </h4>
+                            <a href="#" class="btn--simple">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                       <a href="#" class="blog-item__thumb-link"> <img src="assets/images/thumb/blog-img-01.jpeg" alt=""></a>
+                    </div>
+                    <div class="blog-item__content">
+                        <ul class="event-date-list"> 
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-calendar-6"></span></span> 22 december</li>
+                            <li class="event-date-list__item text-white"> <span class="event-date-list__icon text--base"><span class="icon-clock-7"></span></span> 11:00pm - 2:00am</li>
+                        </ul>
+                        <h4 class="blog-item__title"> <a href="#" class="blog-item__title-link">Pellentesque dapibus odio misit amet lo bortis elit scelerisque.  Pellentesque dapibus odio misit amet lo bortis elit scelerisque.</a> </h4>
+                            <a href="#" class="btn--simple">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Blog End Here ==================== -->
+
+ <!-- ==================== Footer End Here ==================== -->
+ <footer class="footer-area bg-img" style="background-image: url(assets/images/thumb/footer-bid.png);">
+    <div class="container footer-top py-60">
+        <div class="row justify-content-center gy-5">
+            <div class="col-xl-3 col-sm-6">
+                <div class="footer-item">
+                    <div class="footer-item__logo">
+                        <a href="index.html"> <img src="assets/images/logo/footer-logo.png" alt=""></a>
+                    </div>
+                    <p class="footer-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        .</p>
+                    <ul class="social-list style-two">
+                        <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link"><span class="icon-facebook"></span></a> </li>
+                        <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link"> <span class="icon-twitter"></span></a></li>
+                        <li class="social-list__item"><a href="https://www.linkedin.com" class="social-list__link"> <span class="icon-linkedin"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="footer-item">
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="footer-item">
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6">
+                <div class="footer-item">
+                    <h5 class="footer-item__title">download our apps</h5>
+                    <ul class="download-list">
+                        <li class="download-list__item">
+                            <a href="https://play.google.com/store/games?hl=en&gl=US" class="download-list__link w-100">
+                                <div class="download-list__icon">
+                                    <img src="assets/images/icons/play-icon.png" alt="">
+                                </div>
+                                <div class="download-list__content">
+                                    <span class="download-list__subtitle">Available On</span>
+                                    <span class="download-list__title">Google Store</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="download-list__item">
+                            <a href="https://www.apple.com/app-store/" class="download-list__link w-100">
+                                <div class="download-list__icon">
+                                    <img src="assets/images/icons/apple.png" alt="">
+                                </div>
+                                <div class="download-list__content">
+                                    <span class="download-list__subtitle">Available On</span>
+                                    <span class="download-list__title">Apple Store</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom Footer -->
+<div class="bottom-footer pb-3">
+    <div class="container">
+        <div class="row gy-3">
+            <div class="col-md-12 text-center">
+                <div class="bottom-footer-text text-white"> Copyright © 2022 All Right Reserved.</div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+<a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- Popper js -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick js -->
+<script src="assets/js/slick.min.js"></script>
+<!-- nice Select js -->
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<!-- Odometer js -->
+<script src="assets/js/odometer.min.js"></script>
+<!-- Viewport js -->
+<script src="assets/js/viewport.jquery.js"></script>
+<!-- Fraudio js -->
+<script src="assets/js/fraudio.min.js"></script>
+<!-- Magnific Popup js -->
+<script src="assets/js/magnific-popup.min.js"></script>
+<!-- Main js -->
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
